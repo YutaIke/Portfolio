@@ -1,0 +1,55 @@
+<template>
+  <div ref="fade" :class="{fadein: visible, hidden: !visible}">
+    <slot v-show="visible"></slot>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'FadeInComponent',
+  data () {
+    return {
+      visible: false
+    }
+  },
+  created () {
+    window.addEventListener('scroll', this.handleScroll)
+  },
+  destroyed () {
+    window.removeEventListener('scroll', this.handleScroll)
+  },
+  methods: {
+    handleScroll () {
+      if (!this.visible) {
+        var top = this.$refs.fade.getBoundingClientRect().top
+        this.visible = (top + 100) < window.innerHeight
+      }
+    }
+  }
+}
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+.hidden {
+  opacity: 0;
+}
+
+.fadein {
+  animation: fadeIn 1s;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    /* transform: translateX(-100%); */
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    /* transform: translateX(0); */
+    transform: translateX(0px);
+  }
+}
+</style>

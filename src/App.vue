@@ -1,32 +1,79 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <Header />
+    <!-- ルーティング時の表示領域を準備 -->
     <router-view/>
+    <Footer />
   </div>
 </template>
 
+<script>
+import 'normalize.css'
+import Header from './components/Header.vue'
+import Footer from './components/Footer.vue'
+
+export default {
+  name: 'app',
+  components: {
+    Header,
+    Footer
+  }
+}
+</script>
+
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Poppins', 'Noto Sans JP', 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
 }
 
-#nav {
-  padding: 30px;
+h1 {
+  font-weight: normal;
+  /* text-align: center !important; */
 }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+.clearfix::after {
+   content: "";
+   display: block;
+   clear: both;
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+.el-form-item__label {
+  /* color: rgb(60, 146, 146) !important; */
+  /* color: rgb(84, 201, 201) !important; */
+  color: black !important;
 }
+
+.bg-primary {
+  background-color: rgb(60, 146, 146);
+}
+
+/* reset */
+h1,h2,h3,h4,h5,h6, p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 0;
+}
+
+li {
+  list-style: none;
+}
+/* p {
+  margin: 0;
+} */
+
 </style>
