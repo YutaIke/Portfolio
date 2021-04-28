@@ -209,7 +209,7 @@
         <FadeInComponent>
           <div class="card-3col">
             <div>
-              <img src="" alt="ポートフォリオサイト">
+              <img src="../assets/work-portfolio.png" alt="ポートフォリオサイト">
             </div>
           </div>
         </FadeInComponent>
@@ -381,7 +381,7 @@
         <FadeInComponent>
           <div class="card">
             <div>
-              <img src="" alt="ポートフォリオサイト">
+              <img src="../assets/work-portfolio.png" alt="ポートフォリオサイト">
             </div>
           </div>
         </FadeInComponent>
@@ -517,11 +517,15 @@ section {
   float: left;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 0.75rem;
-  min-height: 190px;
+  /* padding: 0.75rem; */
+  /* min-height: 190px; */
   border: 0;
   border-radius: 0.1875rem;
   box-shadow: 0px 5px 25px 0px rgb(0 0 0 / 20%);
+}
+
+.card-3col img {
+  width: 100%;
 }
 
 @media screen and (max-width: 767px) {
@@ -567,6 +571,10 @@ section {
 
   .experience-title {
     margin-left: 10px;
+  }
+
+  .card img {
+    width: 100%;
   }
 }
 </style>

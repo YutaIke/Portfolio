@@ -81,6 +81,10 @@ li {
   list-style: none;
 }
 
+img {
+  vertical-align: top;
+}
+
 @media screen and (max-width: 767px) {
   .pc {
     display: none;
