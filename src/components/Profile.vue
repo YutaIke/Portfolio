@@ -66,14 +66,6 @@ export default {
   box-sizing: border-box;
 }
 
-.pc {
-  display: block;
-}
-
-.sp {
-  display: none;
-}
-
 .title{
   text-align: left;
   margin-bottom: 40px;
@@ -144,14 +136,6 @@ export default {
   #profile {
     padding: 0px 10px;
     box-sizing: border-box;
-  }
-
-  .pc {
-    display: none;
-  }
-
-  .sp {
-    display: block;
   }
 
   .tag {

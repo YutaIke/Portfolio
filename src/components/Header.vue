@@ -152,14 +152,6 @@ export default {
 * スマートフォン / タブレット
 */
 @media screen and (max-width:767px) {
-  /* .navbar {
-    display: none;
-  }
-
-  .header-sp{
-    display: block;
-  } */
-
   .navbar {
     display: block;
     overflow: hidden;

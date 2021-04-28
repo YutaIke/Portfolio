@@ -403,14 +403,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.pc {
-  display: block;
-}
-
-.sp {
-  display: none;
-}
-
 #works {
   background-color: #fff;
   /* height: 100vh; */
@@ -533,14 +525,6 @@ section {
 }
 
 @media screen and (max-width: 767px) {
-  .pc {
-    display: none;
-  }
-
-  .sp {
-    display: block;
-  }
-
   #works {
     padding: 20px 10px;
     box-sizing: border-box;

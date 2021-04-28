@@ -75,14 +75,6 @@ export default {
 }
 
 @media screen and (max-width:767px) {
-  /* .navbar {
-    display: none;
-  }
-
-  .header-sp{
-    display: block;
-  } */
-
   #footer .navbar {
     display: block;
     overflow: hidden;

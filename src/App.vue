@@ -51,6 +51,14 @@ h1 {
   background-color: rgb(60, 146, 146);
 }
 
+.pc {
+  display: block;
+}
+
+.sp {
+  display: none;
+}
+
 /* reset */
 h1,h2,h3,h4,h5,h6, p {
   margin: 0;
@@ -76,4 +84,13 @@ li {
   margin: 0;
 } */
 
+@media screen and (max-width: 767px) {
+  .pc {
+    display: none;
+  }
+
+  .sp {
+    display: block;
+  }
+}
 </style>
