@@ -80,9 +80,6 @@ ul {
 li {
   list-style: none;
 }
-/* p {
-  margin: 0;
-} */
 
 @media screen and (max-width: 767px) {
   .pc {
