@@ -12,6 +12,15 @@
           <li>
             <a href="https://www.facebook.com/yuta.ike.77/" target="_blank"><i class="fab fa-facebook-f fa-lg"></i></a>
           </li>
+          <li>
+            <a href="https://github.com/YutaIke" target="_blank"><i class="fab fa-github fa-lg"></i></a>
+          </li>
+          <!-- <li>
+            <a href="https://qiita.com/yutaIke" target="_blank">
+              <i class="fa fa-square fa-stack-2x fa-lg"></i>
+              <i class="fa fa-search fa-stack-1x fa-inverse fa-sm"></i>
+            </a>
+          </li> -->
         </ul>
       </div>
     </transition>
