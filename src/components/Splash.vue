@@ -6,13 +6,11 @@
           Ike's Portfolio<br/>
         </h1>
         <span class="text">Full Stack Engineer</span>
-        <!-- <div class="ui hidden divider"></div> -->
       </div>
     </div>
     <transition name="slide" appear>
       <a href="#profile" class="scroll-icon right-to-left" v-show="isScreentIconVisible" v-smooth-scroll="{ duration: 2000, offset: -123 }">
         <span>SCROLL DOWN →</span>
-        <!-- <img src="../assets/iconmonstr-arrow-down-circle-thin-240.png"> -->
       </a>
     </transition>
   </div>
@@ -46,7 +44,7 @@ export default {
       })
     })
     window.addEventListener('scroll', this.onScroll)
-    /* eslint-enable */
+    /* eslint-disable */
   },
   computed: {
     isScreentIconVisible () {
@@ -65,11 +63,7 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-/*--------------
-    splash
----------------*/
 .splash {
   position: relative;
   overflow: hidden;
@@ -79,7 +73,6 @@ export default {
   margin-bottom: 0px;
   border-bottom: none;
   background-color: #00B5AD;
-  /* background-image: -webkit-radial-gradient(farthest-corner, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.95)); */
   background-image: radial-gradient(farthest-corner, rgba(255, 255, 255, 0.4), rgba(10, 100, 100, 0.95));
   height: 100vh;
   min-height: 500px;
@@ -143,8 +136,6 @@ a img:hover {
 }
 
 .splash .grid {
-  /* margin: 0em; */
-  /* padding: 15rem 0em; */
   margin-top: 250px;
 }
 

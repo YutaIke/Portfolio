@@ -119,25 +119,21 @@
           <div class="progress-col">
             <div class="progress-wrapper">
               <span>安全確保支援士</span>
-              <!-- <el-progress :percentage="80"></el-progress> -->
             </div>
           </div>
           <div class="progress-col">
             <div class="progress-wrapper">
               <span>認定スクラムマスター</span>
-              <!-- <el-progress :percentage="80"></el-progress> -->
             </div>
           </div>
           <div class="progress-col">
             <div class="progress-wrapper">
               <span>認定プロダクトオーナー</span>
-              <!-- <el-progress :percentage="80"></el-progress> -->
             </div>
           </div>
           <div class="progress-col">
             <div class="progress-wrapper">
               <span>AWS認定ソリューションアーキテクト アソシエイト</span>
-              <!-- <el-progress :percentage="80"></el-progress> -->
             </div>
           </div>
         </div>
@@ -263,8 +259,6 @@ section h2 {
   border: solid 1px #ddd;
   box-shadow: 0px 2px 3px rgb(0 0 0 / 4%);
   box-sizing: border-box;
-  /* max-width: 300px; */
-  /* margin:  50px auto; */
 }
 
 .skill-chart:nth-child(1),
@@ -313,7 +307,6 @@ section h2 {
   .progress-col {
     width: 100%;
     float: none;
-    /* padding: 0; */
     padding: 15px 10px;
   }
 }

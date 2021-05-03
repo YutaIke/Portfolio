@@ -32,7 +32,6 @@ export default {
 
 h1 {
   font-weight: normal;
-  /* text-align: center !important; */
 }
 
 .clearfix::after {
@@ -42,8 +41,6 @@ h1 {
 }
 
 .el-form-item__label {
-  /* color: rgb(60, 146, 146) !important; */
-  /* color: rgb(84, 201, 201) !important; */
   color: black !important;
 }
 

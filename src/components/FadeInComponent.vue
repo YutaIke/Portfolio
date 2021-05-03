@@ -29,7 +29,6 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .hidden {
   opacity: 0;
@@ -43,12 +42,10 @@ export default {
 @keyframes fadeIn {
   0% {
     opacity: 0;
-    /* transform: translateX(-100%); */
     transform: translateY(50px);
   }
   100% {
     opacity: 1;
-    /* transform: translateX(0); */
     transform: translateX(0px);
   }
 }

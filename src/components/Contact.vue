@@ -48,16 +48,12 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #contact {
- /* R94 G230 B230 */
-  /* background-color: rgb(59, 145, 145); */
   background-color: #F3F3F3;
   width: 100%;
   padding: 100px 150px;
   box-sizing: border-box;
-  /* background-image: url('../assets/background-skill.jpg'); */
   position: relative;
   z-index: 0;
   line-height: 1.6;
@@ -70,16 +66,6 @@ a:hover {
 .bg-blar:before{
   content: '';
   background: inherit;
-  /* -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px); */
-  /* -webkit-filter: blur(5px) brightness(0.5);
-  -moz-filter: blur(5px) brightness(0.5);
-  -o-filter: blur(5px) brightness(0.5);
-  -ms-filter: blur(5px) brightness(0.5);
-  filter: blur(5px) brightness(0.5); */
   position: absolute;
   top: -5px;
   left: -5px;

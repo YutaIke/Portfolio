@@ -56,7 +56,7 @@
                 <div class="card-body">
                   <div class="card-content">
                     <h5>通信事業者ポータルスマホアプリの内製スクラム開発</h5>
-                    <p>iOS/Android両OSマルチエンジニアとして2年間、スクラムマスターとして半年間プロジェクトに携わり、2年半の間およそ30回のリリースを行う。Objective-C/JavaからSwift/Kotlinへの移行や、開発プロセス改善など様々な改善の取り組みも実施。</p>
+                    <p>iOS/Android両OSマルチエンジニアとして2年間、スクラムマスターとして半年間アプリ開発プロジェクトに携わり、およそ30回のリリースを行う。Objective-C/JavaからSwift/Kotlinへの移行や、開発プロセス改善など様々な改善の取り組みも実施。</p>
                     <table>
                       <tr>
                         <th>主要機能</th>
@@ -295,8 +295,6 @@
                     <td>2018年に開発メンバーとして参加し、2019年後半から運営代表として活動を取り纏める。</td>
                   </tr>
                 </table>
-                <!-- <p>活動内容：業務の10%の時間を利用して好きな技術を自由に遊び成果物を作成することで、技術力を向上させる活動。半期毎に成果発表会を開催し、130人以上が集まる大規模な取り組み。</p>
-                <p>担当役割：2018年に開発メンバーとして参加し、2019年後半から運営代表として活動を取り纏める</p> -->
               </div>
             </div>
           </div>
@@ -401,11 +399,9 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #works {
   background-color: #fff;
-  /* height: 100vh; */
   width: 100%;
   padding: 100px 150px;
   box-sizing: border-box;
@@ -517,8 +513,6 @@ section {
   float: left;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  /* padding: 0.75rem; */
-  /* min-height: 190px; */
   border: 0;
   border-radius: 0.1875rem;
   box-shadow: 0px 5px 25px 0px rgb(0 0 0 / 20%);

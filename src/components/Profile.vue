@@ -1,12 +1,8 @@
 <template>
   <div id="profile">
-    <!-- <FadeInComponent> -->
-      <!-- <h1 ref="title" class="title" v-show="isShownTitle">Profile</h1> -->
-      <!-- <h1 class="title">Profile</h1> -->
     <transition name="slide" appear>
       <h1 class="title tag">Profile</h1>
     </transition>
-    <!-- </FadeInComponent> -->
     <div class="pc">
       <FadeInComponent>
         <div class="profile-wrapper">
