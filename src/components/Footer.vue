@@ -25,10 +25,8 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #footer {
-  /* background-color: gray; */
   background-color: rgb(60, 146, 146);
   height: 90px;
   color: #fff;
