@@ -209,7 +209,9 @@
         <FadeInComponent>
           <div class="card-3col">
             <div>
-              <img src="../assets/work-portfolio.png" alt="ポートフォリオサイト">
+              <a href="https://qiita.com/yutaIke/items/fdcc57abc273dbd01819" target="_brank">
+                <img src="../assets/work-portfolio.png" alt="ポートフォリオサイト">
+              </a>
             </div>
           </div>
         </FadeInComponent>
@@ -379,7 +381,9 @@
         <FadeInComponent>
           <div class="card">
             <div>
-              <img src="../assets/work-portfolio.png" alt="ポートフォリオサイト">
+              <a href="https://qiita.com/yutaIke/items/fdcc57abc273dbd01819" target="_brank">
+                <img src="../assets/work-portfolio.png" alt="ポートフォリオサイト">
+              </a>
             </div>
           </div>
         </FadeInComponent>
@@ -520,6 +524,17 @@ section {
 
 .card-3col img {
   width: 100%;
+}
+
+.card-3col a {
+  display: block;
+  cursor: pointer;
+}
+
+.card-3col:hover {
+  transform: scale(1.03,1.03);
+  transition: transform 0.1s;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 767px) {
